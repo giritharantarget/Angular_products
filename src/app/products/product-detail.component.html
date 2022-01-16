@@ -1,6 +1,11 @@
 <div class='card'>
     <div class="card-header">
-        {{pageTitle}}
+        {{pageTitle}}  {{product?.productName}}
+    </div>
+
+    <div>
+        <button class="btn btn-outline-secondary" style="width:80px"
+        (click)='onBack()'>Back</button>
     </div>
 
 </div>
